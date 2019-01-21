@@ -24,15 +24,13 @@ Set up a blank frame in all, choose random numbers, fill in the appropriate boxe
 ### API Resources
 
 - [POST /ajax/validate](#post-ajaxvalidate)
-Validate user response for a puzzle
 - [POST /ajax/solution](#post-ajaxsolution)
-Get solution for a puzzle
 - [POST /ajax/feasible](#post-ajaxfeasible)
-Check user generated puzzle for all possible rules
 - [POST /ajax/save-grid](#post-ajaxsave-grid)
-Save user generated puzzle in database and provide solution for that puzzle
 
 #### POST /ajax/validate
+
+Validate user response for a puzzle
 
 Example: http://example.com/ajax/validate
 
@@ -139,6 +137,8 @@ block[80]:
 
 
 #### POST /ajax/solution
+
+Get solution for a puzzle
 
 Example: http://example.com/ajax/solution
 
@@ -249,6 +249,8 @@ puzzle: 3
 
 #### POST /ajax/feasible
 
+Check user generated puzzle for all possible rules
+
 Example: http://example.com/ajax/feasible
 
 <details>
@@ -352,6 +354,8 @@ block[8][8]:
 </details>
 
 #### POST /ajax/save-grid
+
+Save user generated puzzle in database and provide solution for that puzzle
 
 Example: http://example.com/ajax/save-grid
 
